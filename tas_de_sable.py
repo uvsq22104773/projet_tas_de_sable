@@ -1,46 +1,79 @@
 #########################################
 # groupe BITD
+
+# Users:
 # Théo JOLY
 # Djebrouni Ouail
 # Ledien Nils
 # Matveev Erik
+
+# Link:
 # https://github.com/uvsq-info/l1-python
 #########################################
 
-########### object ###############
-# import des modules
-from random import randint
+
+# Module Imports
+import random
 from tkinter import *
+from tkinter.ttk import * 
 
-
-# variables globales
+# Global Variables
 root = Tk()
-Button1 = Button(root)
 label = Label(root)
+Button1 = Button(root)
+grille = []
 
-# fonction
+# Iniatiation grille
+
+for i in range(3):
+    label.append(Label(root))
+
+for i in range(3):
+    grille.append([])
+    for j in range(3):
+        grille[i].append(random.randint(0,3))
+    label[i].config(text=grille[i])
+    label[i].grid(row=i, column=1)
+
+# Setting geometry 
+root.geometry('100x100')
+
+# Creating a style object
+style = Style()
+
+# Setting up Tbutton
+style.configure('W.TButton', font = ('Courier New', 20))
+
+
+# Functions
 def config_aleatoire():
-    pass
+    global grille, label
+    grille=[]
+    for i in range(3):
+        grille.append([])
+        for j in range(3):
+            grille[i].append(random.randint(0,3))
+        label[i].config(text=grille[i])
+        label[i].grid(row=i, column=1)
+    
+
+# Tkinter Parameters
+Title = root.title("Tas de sable")
 
 
-# parametre tkinter
-root.title("Tas de sable")
+# Buttons
+Generation_Button = Button(root, text='Generate', style="W.TButton", command = config_aleatoire)
+Generation_Button.grid(row=0, column=0, padx=0)
 
-Button1.config(command=config_aleatoire())
-Button1.grid(row=0, column=0)
-label.config(text="test")
+label.config(text=grille)
 label.grid(row=0,column=1)
 
 
-# laisser à la fin
-root.mainloop()
 
-
-############################################################################################################
+###################################################################
 
 # debut de code
 
-import random
 a= random.randint(0,10)
 b= random.randint(0,10)
 c= random.randint(0,10)
@@ -51,15 +84,6 @@ g= random.randint(0,10)
 t= random.randint(0,10)
 y= random.randint(0,10)
 
-""" exemple:
-racine = tk.Tk() # Création de la fenêtre racine
-racine.title("Un premier exemple") # ajoute un titre
-label = tk.Label(racine, text="Un texte dans ma fenêtre", font=("helvetica", "20")) # création du widget
-label.grid() # positionnement du widget
-racine.mainloop() # Lancement de la boucle principale """
 
-racine= tk.Tk()
-racine.title("Tas de sable")
-canvas = tk.Canvas(racine, bg="whit", height=500, width=500)
-label = tk.Label(racine, text="tasser le sable", font=("helvetica", "20"))
-
+# Keep at the end
+root.mainloop()

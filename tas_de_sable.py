@@ -10,16 +10,18 @@
 
 #import des modules
 from random import randint
-from tkinter import Button, Canvas, Tk
+from tkinter import *
 
 
 # variables globales
-fenetre=Tk()
+root = Tk()
 
 # nouveau com
-bouton=Button()
+Button1 = Button()
 
 
 
 # parametre tkinter
-fenetre.title("Tas de sable")
+root.title("Tas de sable")
+
+root.mainloop()

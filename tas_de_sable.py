@@ -4,7 +4,6 @@
 # Djebrouni Ouail
 # Ledien Nils
 # Matveev Erik
-# Test
 # https://github.com/uvsq-info/l1-python
 #########################################
 

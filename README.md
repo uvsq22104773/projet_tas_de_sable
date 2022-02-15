@@ -1,9 +1,9 @@
-# groupe BITD
-
+# Groupe BITD
 # Users:
-# Théo JOLY
-# Djebrouni Ouail
-# Ledien Nils
-# Matveev Erik
 
-Description:
+Théo JOLY
+Djebrouni Ouail
+Ledien Nils
+Matveev Erik
+
+# Description:

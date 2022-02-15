@@ -15,7 +15,7 @@ from tkinter import *
 
 # variables globales
 root = Tk()
-Button1 = Button()
+Button1 = Button(root)
 
 
 # fonction
@@ -26,8 +26,8 @@ def config_aleatoire():
 # parametre tkinter
 root.title("Tas de sable")
 
-Button1.config(root, command=config_aleatoire())
-Button1.grid(row=1, column=1)
+Button1.config(command=config_aleatoire())
+Button1.grid(row=0, column=0)
 
 
 # laisser à la fin

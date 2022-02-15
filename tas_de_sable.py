@@ -8,16 +8,16 @@
 #########################################
 
 
-#import des modules
+# import des modules
 from random import randint
 from tkinter import Tk
 
 
-#variables globales
+# variables globales
 fenetre=Tk()
 
 
 
 
-#parametre tkinter
+# parametre tkinter
 fenetre.title("Tas de sable")

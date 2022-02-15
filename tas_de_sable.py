@@ -56,10 +56,20 @@ if a > 4 :
     a = a - p
     b = (p/2) + b
     d = (p/2) + d
-    
+elif b > 4 :
+    p =random.randint(1,b-1)
+    b = b - p
+    a = (p/3) + a
+    e = (p/3) + e
+    c = (p/3) + c
+elif c > 4 :
+     p =random.randint(1,a-1)
+     a = a - p
+     b = (p/2) + b
+     d = (p/2) + d
     
 
-    pass
+     pass
 
 """ exemple:
 racine = tk.Tk() # Création de la fenêtre racine

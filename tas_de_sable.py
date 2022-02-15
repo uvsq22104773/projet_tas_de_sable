@@ -7,7 +7,7 @@
 # https://github.com/uvsq-info/l1-python
 #########################################
 
-
+########### object ###############
 # import des modules
 from random import randint
 from tkinter import *
@@ -35,3 +35,5 @@ label.grid(row=0,column=1)
 # laisser à la fin
 root.mainloop()
 
+
+############################################################################################################

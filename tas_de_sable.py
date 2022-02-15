@@ -29,7 +29,7 @@ root.title("Tas de sable")
 Button1.config(command=config_aleatoire())
 Button1.grid(row=0, column=0)
 label.config()
-
+import tkinter as tk
 
 racine = tk.Tk() # Création de la fenêtre racine
 racine.title("Un premier exemple") # ajoute un titre

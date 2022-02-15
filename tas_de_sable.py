@@ -7,7 +7,7 @@
 # https://github.com/uvsq-info/l1-python
 #########################################
 
-
+########### object ###############
 # import des modules
 from random import randint
 from tkinter import *
@@ -39,3 +39,12 @@ racine.mainloop() # Lancement de la boucle principale
 # laisser à la fin
 root.mainloop()
 
+
+############################################################################################################
+
+# debut de code
+
+
+racine= tk.Tk()
+racine.title("Tas de sable")
+canvas = tk.Canvas(racine, bg="whit", height=500, width=500)

@@ -21,3 +21,10 @@ fenetre=Tk()
 
 #parametre tkinter
 fenetre.title("Tas de sable")
+
+
+
+
+
+#laisser en dernier
+fenetre.mainloop()

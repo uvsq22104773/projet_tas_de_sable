@@ -45,7 +45,7 @@ racine = tk.Tk() # Création de la fenêtre racine
 racine.title("Un premier exemple") # ajoute un titre
 label = tk.Label(racine, text="Un texte dans ma fenêtre", font=("helvetica", "20")) # création du widget
 label.grid() # positionnement du widget
-racine.mainloop() # Lancement de la boucle principale"""
+racine.mainloop() # Lancement de la boucle principale """
 
 racine= tk.Tk()
 racine.title("Tas de sable")

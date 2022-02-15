@@ -52,8 +52,13 @@ t= random.randint(0,10)
 y= random.randint(0,10)
 
 if a > 4 :
-    a = a - random.randint(1,a-1)
+    p =random.randint(1,a-1)
+    a = a - p
+    b = (p/2) + b
+    d = (p/2) + d
     
+    
+
     pass
 
 """ exemple:

@@ -28,14 +28,10 @@ root.title("Tas de sable")
 
 Button1.config(command=config_aleatoire())
 Button1.grid(row=0, column=0)
-label.config()
-import tkinter as tk
+label.config(text="test")
+label.grid(row=0,column=1)
 
-racine = tk.Tk() # Création de la fenêtre racine
-racine.title("Un premier exemple") # ajoute un titre
-label = tk.Label(racine, text="Un texte dans ma fenêtre", font=("helvetica", "20")) # création du widget
-label.grid() # positionnement du widget
-racine.mainloop() # Lancement de la boucle principale
+
 # laisser à la fin
 root.mainloop()
 
@@ -55,6 +51,12 @@ g= random.randint(0,10)
 t= random.randint(0,10)
 y= random.randint(0,10)
 
+""" exemple:
+racine = tk.Tk() # Création de la fenêtre racine
+racine.title("Un premier exemple") # ajoute un titre
+label = tk.Label(racine, text="Un texte dans ma fenêtre", font=("helvetica", "20")) # création du widget
+label.grid() # positionnement du widget
+racine.mainloop() # Lancement de la boucle principale"""
 
 racine= tk.Tk()
 racine.title("Tas de sable")

@@ -13,12 +13,12 @@ from random import randint
 from tkinter import Tk
 
 
-#variables globales
+# variables globales
 fenetre=Tk()
 
+# nouveau com
 
 
 
-
-#parametre tkinter
+# parametre tkinter
 fenetre.title("Tas de sable")

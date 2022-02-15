@@ -1,13 +1,9 @@
 #########################################
 # groupe BITD
-
-# Users:
 # Théo JOLY
 # Djebrouni Ouail
 # Ledien Nils
 # Matveev Erik
-
-# Link:
 # https://github.com/uvsq-info/l1-python
 #########################################
 
@@ -28,7 +24,6 @@ grille = []
 for i in range(3):
     label.append(Label(root))
 
-
 for i in range(3):
     grille.append([])
     for j in range(3):
@@ -47,7 +42,7 @@ style.configure('W.TButton', font = ('Courier New', 20))
 
 
 # Functions
-def rand_config():
+def config_aleatoire():
     global grille, label
     grille=[]
     for i in range(3):
@@ -63,12 +58,15 @@ Title = root.title("Tas de sable")
 
 
 # Buttons
-Generation_Button = Button(root, text='Generate', style="W.TButton", command = rand_config)
+Generation_Button = Button(root, text='Generate', style="W.TButton", command = config_aleatoire)
 Generation_Button.grid(row=0, column=0, padx=0)
 
 label.config(text=grille)
 label.grid(row=0,column=1)
 
+
+
+###################################################################
 
 # debut de code
 

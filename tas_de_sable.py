@@ -3,6 +3,6 @@
 # Théo JOLY
 # Djebrouni Ouail
 # Ledien Nils
-# Matveev Erik
+# Matveev Eri
 # https://github.com/uvsq-info/l1-python
 #########################################

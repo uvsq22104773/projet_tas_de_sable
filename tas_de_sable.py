@@ -28,14 +28,10 @@ root.title("Tas de sable")
 
 Button1.config(command=config_aleatoire())
 Button1.grid(row=0, column=0)
-label.config()
+label.config(text="test")
+label.grid(row=0,column=1)
 
 
-racine = tk.Tk() # Création de la fenêtre racine
-racine.title("Un premier exemple") # ajoute un titre
-label = tk.Label(racine, text="Un texte dans ma fenêtre", font=("helvetica", "20")) # création du widget
-label.grid() # positionnement du widget
-racine.mainloop() # Lancement de la boucle principale
 # laisser à la fin
 root.mainloop()
 

@@ -10,15 +10,12 @@
 
 # import des modules
 from random import randint
-from tkinter import Button, Canvas, Tk
+from tkinter import *
 
 
 # variables globales
-fenetre=Tk()
-
-
-# nouveau com
-bouton=Button()
+root = Tk()
+Button1 = Button()
 
 
 # fonction
@@ -27,11 +24,12 @@ def config_aleatoire():
 
 
 # parametre tkinter
-fenetre.title("Tas de sable")
+root.title("Tas de sable")
 
-bouton.config(fenetre, command=config_aleatoire())
-
+Button1.config(root, command=config_aleatoire())
+Button1.grid(row=1, column=1)
 
 
 # laisser à la fin
-fenetre.mainloop()
+root.mainloop()
+

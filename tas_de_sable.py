@@ -40,6 +40,17 @@ root.mainloop()
 
 # debut de code
 
+import random
+a= random.randint(0,10)
+b= random.randint(0,10)
+c= random.randint(0,10)
+d= random.randint(0,10)
+e= random.randint(0,10)
+z= random.randint(0,10)
+g= random.randint(0,10)
+t= random.randint(0,10)
+y= random.randint(0,10)
+
 """ exemple:
 racine = tk.Tk() # Création de la fenêtre racine
 racine.title("Un premier exemple") # ajoute un titre

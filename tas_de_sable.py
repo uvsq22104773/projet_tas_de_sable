@@ -11,3 +11,13 @@
 #import des modules
 from random import randint
 from tkinter import Tk
+
+
+#variables globales
+fenetre=Tk()
+
+
+
+
+#parametre tkinter
+fenetre.title("Tas de sable")

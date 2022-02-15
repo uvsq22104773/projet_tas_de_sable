@@ -19,6 +19,7 @@ fenetre=Tk()
 
 
 
+
 #parametre tkinter
 fenetre.title("Tas de sable")
 

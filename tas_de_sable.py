@@ -10,12 +10,12 @@
 
 #import des modules
 from random import randint
-from tkinter import Tk
+from tkinter import Button, Canvas, Tk
 
 
 #variables globales
 fenetre=Tk()
-
+bouton=Button()
 
 
 

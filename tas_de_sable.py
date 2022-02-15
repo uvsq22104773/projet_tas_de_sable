@@ -51,13 +51,18 @@ g= random.randint(0,10)
 t= random.randint(0,10)
 y= random.randint(0,10)
 
+if a > 4 :
+    a = a - random.randint(1,a-1)
+    
+    pass
+
 """ exemple:
 racine = tk.Tk() # Création de la fenêtre racine
 racine.title("Un premier exemple") # ajoute un titre
 label = tk.Label(racine, text="Un texte dans ma fenêtre", font=("helvetica", "20")) # création du widget
 label.grid() # positionnement du widget
-racine.mainloop() # Lancement de la boucle principale """
-
+racine.mainloop() # Lancement de la boucle principale"""
+import tkinter as tk
 racine= tk.Tk()
 racine.title("Tas de sable")
 canvas = tk.Canvas(racine, bg="whit", height=500, width=500)

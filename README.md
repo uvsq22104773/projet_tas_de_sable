@@ -8,4 +8,4 @@
 # https://github.com/uvsq-info/l1-python
 # ########################################
 
-Projet 1 IN200N.
+Projet 1 IN200N. joseph.desquaines@ens.uvsq.fr
